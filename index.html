@@ -6,54 +6,13 @@
     <title>Coffee Recipes</title>
     <meta name="description" content="coffee, coffee recipes,cafe" />
     <link rel="icon" href="/assets/images/icon.png" />
-    <style>
-      body {
-        font-family: "Times New Roman", Times, serif;
-        padding-left: 100px;
-        padding-right: 100px;
-      }
-    </style>
+    <link rel="stylesheet" href="/css/index.css" />
   </head>
   <header>
-    <nav>
-      <div>
-        <table style="float: right; width: 350px; text-align: center">
-          <tr style="height: 60px">
-            <td><a href="">HOME</a></td>
-            <td><a href="">ABOUT US</a></td>
-            <td><a href="">RECIPES</a></td>
-          </tr>
-        </table>
-      </div>
-    </nav>
+    <h1 id="topic">COFFEE RECIPES</h1>
   </header>
-  <br />
-  <br />
-  <br />
-  <br />
-  <hr style="background-color: black; height: 1px; border: 0px" />
   <body>
     <div>
-      <h1
-        style="
-          font-size: 50px;
-          text-align: center;
-          color: black;
-          background-color: #c8b6a6;
-        "
-      >
-        COFFEE RECIPES
-      </h1>
-    </div>
-
-    <div
-      style="
-        font-family: 'Times New Roman', Times, serif;
-        line-height: 1.5;
-        font-size: 20px;
-        float: right;
-      "
-    >
       <img
         src="/assets/images/coffee.jpeg"
         alt="coffee"
@@ -68,109 +27,60 @@
       </p>
     </div>
     <div style="text-align: center">
-      <button
-        style="
-          background: 0 0;
-          border: none;
-          font-size: 20px;
-          font-weight: bold;
-          padding: 20px;
-          cursor: pointer;
-        "
-      >
-        All recipes
-      </button>
-      <button
-        style="
-          background: none;
-          border: none;
-          font-size: 20px;
-          font-weight: bold;
-          padding: 20px;
-          cursor: pointer;
-        "
-      >
-        Hot coffee recipes
-      </button>
-      <button
-        style="
-          background: none;
-          border: none;
-          font-size: 20px;
-          font-weight: bold;
-          padding: 20px;
-          cursor: pointer;
-        "
-      >
-        Cold coffee recipes
-      </button>
+      <button class="button">All recipes</button>
+      <button class="button">Hot coffee recipes</button>
+      <button class="button">Cold coffee recipes</button>
     </div>
-    <section>
-      <nav>
-        <div
-          style="
-            align-items: center;
-            margin-top: 40px;
-            display: flex;
-            justify-content: center;
-          "
-        >
-          <a href="pages/affogato-recipe.html " target="_blank">
-            <img
-              src="/assets/images/affogato-recipe.jpg"
-              alt="affogato coffee"
-              style="width: 400px; height: 300px; margin-right: 100px"
-            />
-          </a>
-          <a href="/pages/irish-coffee-recipe.html" target="_blank">
-            <img
-              src="/assets/images/irish-coffee-recipe.jpg"
-              alt="irish coffee"
-              style="width: 400px; height: 300px"
-            />
-          </a>
+    <nav>
+      <div class="image-rows">
+        <a href="pages/affogato-recipe.html " target="_blank">
+          <img
+            src="/assets/images/affogato-recipe.jpg"
+            alt="affogato coffee"
+            style="width: 400px; height: 300px; margin-right: 100px"
+          />
+        </a>
+        <a href="/pages/irish-coffee-recipe.html" target="_blank">
+          <img
+            src="/assets/images/irish-coffee-recipe.jpg"
+            alt="irish coffee"
+            style="width: 400px; height: 300px"
+          />
+        </a>
 
-          <a href="/pages/dalgona-coffee-recipe.html" target="_blank">
-            <img
-              src="/assets/images/dalgona-coffee-recipe.jpg"
-              alt="dalgona coffee"
-              style="width: 400px; height: 300px; margin-left: 100px"
-            />
-          </a>
+        <a href="/pages/dalgona-coffee-recipe.html" target="_blank">
+          <img
+            src="/assets/images/dalgona-coffee-recipe.jpg"
+            alt="dalgona coffee"
+            style="width: 400px; height: 300px; margin-left: 100px"
+          />
+        </a>
 
-          <br />
-        </div>
-        <div
-          style="
-            align-items: center;
-            margin-top: 40px;
-            display: flex;
-            justify-content: center;
-          "
-        >
-          <a href="/pages/cafe-de-olla-recipe.html" target="_blank"
-            ><img
-              src="/assets/images/cafe-de-olla-recipe.jpg"
-              alt="cafe-de-olla-recipe"
-              style="width: 400px; height: 300px; margin-right: 100px"
-          /></a>
+        <br />
+      </div>
+      <div class="image-rows">
+        <a href="/pages/cafe-de-olla-recipe.html" target="_blank"
+          ><img
+            src="/assets/images/cafe-de-olla-recipe.jpg"
+            alt="cafe-de-olla-recipe"
+            style="width: 400px; height: 300px; margin-right: 100px"
+        /></a>
 
-          <a href="/pages/frappe-recipe.html" target="_blank"
-            ><img
-              src="/assets/images/frappe-recipe.jpg"
-              alt="frappe-recipe"
-              style="width: 400px; height: 300px"
-          /></a>
+        <a href="/pages/frappe-recipe.html" target="_blank"
+          ><img
+            src="/assets/images/frappe-recipe.jpg"
+            alt="frappe-recipe"
+            style="width: 400px; height: 300px"
+        /></a>
 
-          <a href="/pages/bavarian-coffee-recipe.html" target="_blank">
-            <img
-              src="/assets/images/bavarian-coffee-recipe.jpg"
-              alt="bavarian-coffee-recipe"
-              style="width: 400px; height: 300px; margin-left: 100px"
-            />
-          </a>
-        </div>
-      </nav>
-    </section>
+        <a href="/pages/bavarian-coffee-recipe.html" target="_blank">
+          <img
+            src="/assets/images/bavarian-coffee-recipe.jpg"
+            alt="bavarian-coffee-recipe"
+            style="width: 400px; height: 300px; margin-left: 100px"
+          />
+        </a>
+      </div>
+    </nav>
   </body>
 </html>
