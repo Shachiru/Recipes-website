@@ -1,0 +1,17 @@
+.main-image {
+  width: 100%;
+  height: 750px;
+  display: block;
+  margin: 0px;
+}
+article {
+  font-family:"Inter", sans-serif;
+}
+.recipe-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.recipe-name {
+  text-align: center
+}
