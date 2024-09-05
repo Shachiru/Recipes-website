@@ -5,7 +5,7 @@
   margin: 0px;
 }
 article {
-  font-family:"Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .recipe-image {
   margin-left: auto;
@@ -13,5 +13,26 @@ article {
   display: block;
 }
 .recipe-name {
-  text-align: center
+  text-align: center;
+}
+.ingredient-list {
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 1.8;
+}
+.what-recipes {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.steps {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 0.1;
+  font-style: italic;
+}
+.step-desc {
+  font-size: larger;
+}
+ul > li {
+  line-height: 1.8;
 }
