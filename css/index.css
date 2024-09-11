@@ -1,12 +1,23 @@
 body {
   font-family: "Inter", sans-serif;
-  padding-left: 100px;
-  padding-right: 100px;
+  margin: 0;
+  padding-inline-start: 100px;
+  padding-inline-end: 100px;
 }
-.header-shop{
+header {
+  margin-top: 0;
+}
+.logo-img {
+  width: 170px;
+  height: 100%;
+}
+.header-shop {
   display: flex;
   justify-content: center;
-  margin-top: auto;
+}
+.header-shop p {
+  margin: 0;
+  font-size: 15px;
 }
 #topic {
   font-size: 50px;
@@ -31,5 +42,22 @@ p {
   align-items: center;
   margin-top: 40px;
   display: flex;
+  justify-content: space-evenly;
+}
+.container {
+  margin: 100px 60px;
+  padding: 20px;
+  border: 1px solid none;
+  height: auto;
+  background-color: antiquewhite;
+}
+a img {
+  width: 400px;
+  height: 300px;
+  margin-left: 20px;
+}
+.filter-recipes {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
