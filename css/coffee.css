@@ -1,0 +1,80 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #ECE3CE;
+}
+header {
+  margin: 0px 100px;
+}
+.logo-img {
+  width: 170px;
+  height: 100%;
+  margin: 0;
+}
+.header-shop {
+  display: flex;
+  justify-content: center;
+  margin: 0px 80px;
+}
+.header-shop p {
+  margin: 0;
+  font-size: 15px;
+  color: black;
+}
+#topic {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin: 0px 100px 20px;
+}
+.button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
+}
+p {
+  font-size: 19px;
+  color: aliceblue;
+}
+.image-rows {
+  align-items: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container {
+  margin: 100px 140px;
+  padding: 20px;
+  border: 1px solid none;
+  height: auto;
+  background-color: antiquewhite;
+}
+.image1 {
+  background-image: url("/assets/images/coffee-bg.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  display: block;
+  width: fit-content;
+}
+a img {
+  width: 400px;
+  height: 300px;
+  margin-left: 20px;
+}
+.image-rows > a > img:hover {
+  box-shadow: 2px 5px 25px black;
+}
+.filter-recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
