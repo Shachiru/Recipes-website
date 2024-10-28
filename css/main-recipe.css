@@ -42,8 +42,7 @@ header {
 
 /*====================== Menu Panel ======================*/
 .menu-panel {
-  background-color: #2f2e2d;
-  color: white;
+  background-color: #3a4d39;
   height: 100%;
   width: 250px;
   position: fixed;
@@ -63,18 +62,18 @@ header {
 }
 
 .menu-panel ul li a {
-  color: white;
+  color: #ece3ce;
   text-decoration: none;
   font-size: 1.2rem;
 }
 
 .menu-panel ul li a:hover {
-  color: #fea609;
+  color: #739072;
 }
 
 .close-btn {
   background-color: transparent;
-  color: white;
+  color: #ece3ce;
   border: none;
   font-size: 2rem;
   cursor: pointer;

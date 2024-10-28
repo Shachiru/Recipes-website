@@ -47,7 +47,7 @@
       <button class="close-btn" id="btn-close">&times;</button>
       <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#acategory">Categories</a></li>
+        <li><a href="#category">Categories</a></li>
         <li><a href="#">Reviews</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
@@ -153,5 +153,19 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      const burger = document.getElementById("burger");
+      const menuPanel = document.getElementById("menu-panel-id");
+      const closeBtn = document.getElementById("btn-close");
+
+      burger.addEventListener("click", () => {
+        menuPanel.classList.toggle("active");
+      });
+
+      closeBtn.addEventListener("click", () => {
+        menuPanel.classList.remove("active");
+      });
+    </script>
   </body>
 </html>
