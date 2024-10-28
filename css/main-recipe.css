@@ -26,7 +26,7 @@ a {
 
 /* Header */
 header {
-  background-color: #ece3ce;
+  background-color: #739072;
   position: fixed;
   top: 0;
   left: 0;
@@ -178,4 +178,22 @@ header {
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+
+/* Footer */
+footer {
+  padding: 2rem 0;
+  background-color: #739072;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-content img {
+  height: 85px;
+  width: 74px;
 }
