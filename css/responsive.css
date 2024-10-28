@@ -41,7 +41,7 @@
   }
 }
 
-/* Mobile Large */
+/*========= Mobile Large =========*/
 @media screen and (max-width: 425px) {
   .home {
     padding: 2rem 1rem;
@@ -56,7 +56,7 @@
   }
 }
 
-/* Mobile medium */
+/*========= Mobile medium =========*/
 @media screen and (max-width: 375px) {
   .logo img {
     width: 45px;
@@ -68,6 +68,6 @@
   }
 }
 
-/* Mobile Small */
+/*========= Mobile Small =========*/
 @media screen and (max-width: 320px) {
 }
